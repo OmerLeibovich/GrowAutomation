@@ -1,0 +1,6 @@
+2025-09-27 19:25:48 - INFO - script start
+2025-09-27 19:25:50 - INFO - Price assertion passed: 62
+2025-09-27 19:25:50 - ERROR -  Assertion failed: Expected 10.54 but got 9.46
+2025-09-27 19:25:50 - INFO - passed firstPage
+2025-09-27 19:26:02 - ERROR - Error found : Wrong FullName
+2025-09-27 19:26:02 - ERROR - Error found : Wrong phone number
