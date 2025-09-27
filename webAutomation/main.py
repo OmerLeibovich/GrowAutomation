@@ -1,4 +1,5 @@
 import logging
+import sys
 import time
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
@@ -33,6 +34,6 @@ logging.info("complete fill payment details")
 
 logging.info("script end")
 
-time.sleep(100)
+sys.exit(1)
 
 
