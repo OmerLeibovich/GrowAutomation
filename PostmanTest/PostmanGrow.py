@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 
 app = Flask(__name__)
 
-BASE_URL = os.getenv("BASE_URL")
+BASE_URL = "https://sandbox.meshulam.co.il/api/light/server/1.0/createPaymentProcess"
 
 @app.route("/GetPaymentPageLink", methods=["POST"])
 def GetPaymentPageLink():
