@@ -15,8 +15,16 @@ This project demonstrates the use of **Flask** for integration with the **Meshul
 ```bash
 pip install -r requirements.txt
 ```
+
+Running web Automation script
+```bash
+cd webAutomation
+python main.py
+````
+
 Running the Flask API
 ```bash
+cd PostmanTest
 python PostmanGrow.py
 ```
 By default, the app will be available at:
